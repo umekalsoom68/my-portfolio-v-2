@@ -11,7 +11,7 @@ const projectList = [
     desc: "Collaborated with teachers and fellow students to develop a comprehensive web application.",
     tags: ["React", "JavaScript", "CSS3"],
     btnText: "Live Demo",
-    link: "#" 
+    link: "https://astro-feed-main-s3ii.vercel.app/  " 
   },
   {
     title: "To-Do List App",
@@ -29,16 +29,16 @@ const projectList = [
     desc: "Developed a dynamic weather application with API integration to fetch real-time weather data.",
     tags: ["API", "JavaScript", "Responsive"],
     btnText: "Live Demo",
-    link: "#"
+    link: ""
   },
   {
     title: "Calculator",
-    category: "practice PROJECT",
-    image: "/calculator.png",
-    desc: "A fully functional calculator with a clean UI, capable of performing basic arithmetic operations.",
+    category: "PERSONAL PROJECT",
+    image: "/calculator.png", 
+    desc: "A fully functional calculator with a clean UI, capable of performing basic arithmetic operations with precision.",
     tags: ["HTML5", "CSS3", "JavaScript"],
     btnText: "Live Demo",
-    link: "#"
+    link: "http://ume-kalsoom-rizvia-calculator.surge.sh"
   },
   {
     title: "HealthCare Project",
@@ -86,7 +86,7 @@ export default function ProjectsPage() {
                 </div>
               </div>
 
-              <div className="p-8 flex-grow flex flex-col">
+              <div className="p-8 flex-grow' flex flex-col">
                 <h3 className="text-2xl font-bold mb-3 leading-tight text-white">{project.title}</h3>
                 <p className="text-gray-400 text-sm leading-relaxed mb-6 h-20 overflow-hidden">{project.desc}</p>
 
