@@ -20,7 +20,7 @@ const projectList = [
     desc: "Built an interactive task management application with full CRUD functionality.",
     tags: ["JavaScript", "HTML5", "CSS3"],
     btnText: "Live Demo",
-    link: "#"
+    link: "https://ume-kalsoom-todo-list-project.surge.sh  "
   },
   {
     title: "Weather Application",
@@ -47,7 +47,7 @@ const projectList = [
     desc: "Comprehensive UI/UX design for a healthcare application focusing on patient management.",
     tags: ["Figma", "UI/UX", "Prototyping"],
     btnText: "View Design",
-    link: "#"
+    link: "https://umekalsoom-health-care-project.surge.sh "
   },
   {
     title: "Architects Website",
@@ -56,7 +56,7 @@ const projectList = [
     desc: "A modern website design for an architectural firm, showcasing portfolios and project galleries.",
     tags: ["React", "Tailwind", "Figma"],
     btnText: "Live Demo",
-    link: "#"
+    link: "https://ume-kalsooms-architect-project.surge.sh "
   }
 ];
 

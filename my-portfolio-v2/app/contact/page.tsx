@@ -1,4 +1,4 @@
-"use client"; // Interactive features ke liye zaroori hai
+"use client"; 
 import Navbar from '@/app/components/Navbar';
 import { Mail, Phone, MapPin, Github, Linkedin, Instagram, Copy } from 'lucide-react';
 import Link from 'next/link';

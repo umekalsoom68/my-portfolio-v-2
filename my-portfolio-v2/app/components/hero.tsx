@@ -23,8 +23,8 @@ export default function Hero() {
           </h1>
 
           <p className="max-w-xl text-gray-400 text-lg leading-relaxed mb-8">
-            I am a BSCS student at **The Islamia University of Bahawalpur**, 
-            specializing in crafting responsive web applications with **Next.js & Tailwind CSS**.
+            I am a BSCS student at **The Islamia University of Bahawalpur", 
+            specializing in crafting responsive web applications with "Next.js & Tailwind CSS**.
           </p>
 
           {/* Social Links with your URLs */}
@@ -37,9 +37,6 @@ export default function Hero() {
             </Link>
             <Link href="https://www.instagram.com/aafffiii_68" target="_blank" className="hover:text-[#d9007b] transition-all hover:scale-110">
               <Instagram size={26} />
-            </Link>
-            <Link href="umekalsoomrizvia@gmail.com" className="hover:text-[#d9007b] transition-all hover:scale-110">
-              <Mail size={26} />
             </Link>
           </div>
 
@@ -62,7 +59,7 @@ export default function Hero() {
             {/* Image Container */}
             <div className="relative w-full h-full bg-zinc-900 rounded-4xl overflow-hidden border border-zinc-800 z-10 shadow-2xl">
               <Image 
-                src="/profile.jpg" 
+                src="/profile img.jpg" 
                 alt="Ume Kalsoom Rizvia"
                 fill
                 priority
