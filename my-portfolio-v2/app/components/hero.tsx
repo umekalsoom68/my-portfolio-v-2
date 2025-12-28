@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Github, Linkedin, Instagram, Mail } from 'lucide-react'; // Instagram icon add kiya
+import { Github, Linkedin, Instagram, Youtube } from 'lucide-react'; 
 import Link from 'next/link';
 
 export default function Hero() {
@@ -23,11 +23,11 @@ export default function Hero() {
           </h1>
 
           <p className="max-w-xl text-gray-400 text-lg leading-relaxed mb-8">
-            I am a BSCS student at **The Islamia University of Bahawalpur", 
-            specializing in crafting responsive web applications with "Next.js & Tailwind CSS**.
+            I am a BSCS student at <span className="text-white font-semibold">The Islamia University of Bahawalpur</span>, 
+            specializing in crafting responsive web applications with <span className="text-white font-semibold">Next.js & Tailwind CSS</span>.
           </p>
 
-          {/* Social Links with your URLs */}
+          {/* Social Links */}
           <div className="flex gap-6 mb-10 text-gray-400">
             <Link href="https://github.com/umekalsoom68" target="_blank" className="hover:text-[#d9007b] transition-all hover:scale-110">
               <Github size={26} />
@@ -37,6 +37,10 @@ export default function Hero() {
             </Link>
             <Link href="https://www.instagram.com/aafffiii_68" target="_blank" className="hover:text-[#d9007b] transition-all hover:scale-110">
               <Instagram size={26} />
+            </Link>
+            {/* YouTube Link */}
+            <Link href="https://www.youtube.com/@LearnWithUK-r3j" target="_blank" className="hover:text-[#d9007b] transition-all hover:scale-110">
+              <Youtube size={26} />
             </Link>
           </div>
 
@@ -52,7 +56,7 @@ export default function Hero() {
 
         {/* Right Side: Profile Image */}
         <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-100 lg:h-100">
+          <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
             {/* Pink Border Frame */}
             <div className="absolute inset-0 border-2 border-[#d9007b] rounded-4xl translate-x-4 translate-y-4 opacity-50"></div>
             
